@@ -1,0 +1,1 @@
+The CSS rule `:focus-visible` is not working as expected.  The element receives focus, but the visual style changes defined for `:focus-visible` are not applied. This is happening in a specific browser or browser version, while it functions correctly in others.
