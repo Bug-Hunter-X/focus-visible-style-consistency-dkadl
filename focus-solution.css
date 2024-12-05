@@ -1,0 +1,18 @@
+/* focus-solution.css */
+
+.focusable {
+  outline: none; /* Remove default outline */
+}
+
+.focusable:focus {
+  /* Add a default focus style, can be removed for custom focus styling */
+  box-shadow: 0 0 0 2px blue;
+}
+
+.focusable:focus-visible {
+  /* This now applies consistently after explicit management with JS */
+  box-shadow: 0 0 0 4px green; 
+}
+
+/* JavaScript (example) to manage focus in a robust way */
+// ... (JavaScript code to handle focus and toggle custom classes) ... 
